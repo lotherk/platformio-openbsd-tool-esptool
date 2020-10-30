@@ -4,7 +4,7 @@ This is a fake platformio package to make it work on OpenBSD. It is inspired by 
 
 ## Required packages
 ```
-$ pkg_add esptool
+$ pkg_add arduino-esp8266
 ```
 
 ## Installation
