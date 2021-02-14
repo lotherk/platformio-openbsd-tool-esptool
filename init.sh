@@ -27,3 +27,15 @@ cat <<__EOF__ >package.json
     "version": "${VERSION}"
 }
 __EOF__
+
+cat <<__EOF__ >.piopm
+{
+    "name": "tool-esptool",
+    "type": "tool",
+    "spec": {
+        "name": "tool-esptool",
+        "owner": "platformio"
+    },
+    "version": "${VERSION}"
+}
+__EOF__
